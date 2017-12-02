@@ -1,0 +1,40 @@
+//Simple Calculator
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+//variable declaration
+//Local variables
+char x;
+int a,b;
+
+cout<<"Select the operation: \n";
+cout<<"\t1. Add\n"
+<<"\t2. Subtract\n"
+<<"\t3. product\n"
+<<"\t4. Quotient\n"
+<<"\t5. Modulus\n";
+cin>>x;
+cout>>"\n Enter 2 numbers: ";
+cin>>a >>b;
+
+int main(){
+if(x==1){
+Add();
+}
+else{
+cout<<"Try Again";
+}
+
+
+//Addition fuction
+int Add(){
+int sum;
+sum = a+b;
+cout<<"\n\nThe sum of " <<a <<" + " <<b <<" is " <<sum;
+}
+}
+
+
+
